@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Launch X</title>
+</head>
+
+<!-- <head> Pastelería </head> --> 
+<body>
+    <h1> Pastelería </h1>
+    <img src="./2.png" alt="Logo" width="350px" height="350px">
+    <table> 
+        <tr> Inicio </tr>
+        <tr> Sabores </tr>
+        <tr> Adornos </tr> 
+        <tr> Hacer un pedido </tr>
+    </table>
+
+    <h2> Aquí puede realizar su pedido</h2>
+    <label for="Input1"> Nombre completo</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="correo1">Correo electrónico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="tel1">Número Teléfono</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <label for="Input2">Dirección</label><br>
+    <input type="text" id="Input2" name="Input2">
+
+    <p>Sabor (Puede seleccionar más de uno) </p>
+    <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+    <label for="topping1">Chocolate</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+    <label for="topping2">Fresa</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Vainilla">
+    <label for="topping3">Vainilla</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Frambuesa">
+    <label for="topping4">Frambuesa</label><br>
+    <input type="checkbox" id="topping5" name="topping5" value="Mora Azul">
+    <label for="topping5">Mora azul</label><br>
+
+    <p>Seleccione los adornos a combinar: </p>
+    <input type="checkbox" id="topping1" name="topping1" value="Muneco">
+    <label for="topping1">Muñequitos</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Merengue">
+    <label for="topping2">Merengue</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Fresas">
+    <label for="topping3">Fresas</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Manzanas">
+    <label for="topping4">Manzana</label><br>
+    <input type="checkbox" id="topping5" name="topping5" value="Moras">
+    <label for="topping5">Moras</label><br>
+   
+    
+    <label for="numero1">Número de piezas</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <h2>Select</h2>
+    <label for="Pasteles">Tipo de envío</label>
+    <select id="Pasteles" name="Pasteles">
+        <option value="suadero">Recoger en tienda</option>
+        <option value="pastor">A domicilio</option>
+    </select>
+
+    <h2>Seleccione fecha de entrega: </h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br><br>
+
+    <input type="button" id="boton1" name="Probar" value="Enviar pedido" onclick="alert('El pedido ha sido procesado');">
+    <br>
+
+</body>
+</html>
